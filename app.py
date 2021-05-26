@@ -70,7 +70,7 @@ def make_predicted(x):
 st.sidebar.title("Leopold Predictions")
 page = st.sidebar.radio(
      "Pick an option",
-     ('Predictions', 'Demorgaphics', 'Favorable Analysis'),
+     ('Predictions', 'Demogaphics', 'Favorable Analysis'),
      )
 
 
@@ -196,7 +196,7 @@ if page =="Predictions":
 
 
 
-elif page=="Demorgaphics":
+elif page=="Demogaphics":
 
     st.title("Demographics Page")
 
